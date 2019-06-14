@@ -3,7 +3,7 @@
 // StyleDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Fri, 14 Jun 2019 16:58:03 GMT
+// Generated on Fri, 14 Jun 2019 18:08:14 GMT
 //
 
 #import <UIKit/UIKit.h>
@@ -15,9 +15,18 @@ ColorBaseGrayMedium,
 ColorBaseGrayDark,
 ColorBaseRed,
 ColorBaseGreen,
-ColorFontBase,
+ColorBaseWhite,
+ColorBasePrimary,
+ColorBaseSecondary,
+ColorBaseTertiary,
+ColorBaseSuccess,
+ColorBaseWarning,
+ColorBaseInfo,
+ColorBaseDanger,
+ColorFontPrimary,
 ColorFontSecondary,
-ColorFontTertiary
+ColorFontTertiary,
+ColorFontWhite
 };
 
 @interface StyleDictionaryColor : NSObject
