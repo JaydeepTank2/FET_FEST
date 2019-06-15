@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 15 Jun 2019 07:01:39 GMT
+ * Generated on Sat, 15 Jun 2019 08:07:05 GMT
  */
 
 export const ColorBaseGrayLight = "#cccccc";
@@ -20,7 +20,16 @@ export const ColorFontPrimary = "#111111";
 export const ColorFontSecondary = "#505050";
 export const ColorFontTertiary = "#cccccc";
 export const ColorFontWhite = "#ffffff";
+export const IconLeftArrow = "'\\f104'";
+export const IconRightArrow = "'\\f105'";
+export const IconTopArrow = "'\\f106'";
+export const IconDownArrow = "'\\f107'";
+export const IconCart = "'\\f07a'";
+export const IconAdmin = "'\\f007'";
+export const IconEdit = "'\\f040'";
+export const IconSave = "'\\f0c7'";
 export const SizeFontSmall = "0.75rem"; // the small size of the font
 export const SizeFontMedium = "1rem"; // the medium size of the font
 export const SizeFontLarge = "2rem"; // the large size of the font
+export const SizeFontXlarge = "4rem"; // the xlarge size of the font
 export const SizeFontBase = "1rem"; // the base size of the font
