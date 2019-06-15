@@ -8,7 +8,7 @@ UniStyle or Universal Style Guide is a project that can help us in streamlining 
 
 # Why should every Organistation Use UNIStyle?
 
-* One single file change can change cause change in the official documentation as well as the deployed projects.
+* One single file change can trigger changes in the official documentation as well as the deployed projects.
 
 * No time is wasted , no confusions created when the Organisation's official style document is changed as this change is triggered along with changes to the Organisation's different projects which can be based on any of the F.E.T. (Front End Technologies).
 
