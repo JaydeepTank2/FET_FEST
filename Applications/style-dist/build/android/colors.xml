@@ -2,25 +2,16 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 14 Jun 2019 18:45:47 GMT
+  Generated on Sat, 15 Jun 2019 06:45:56 GMT
 -->
 <resources>
   <color name="color_base_gray_light">#ffcccccc</color>
-  <color name="color_base_gray_medium">#ff505050</color>
+  <color name="color_base_gray_medium">#ff999999</color>
   <color name="color_base_gray_dark">#ff111111</color>
   <color name="color_base_red">#ffff0000</color>
   <color name="color_base_green">#ff00ff00</color>
-  <color name="color_base_white">#ffffffff</color>
-  <color name="color_base_primary">#ff00558c</color>
-  <color name="color_base_secondary">#ff00b1e2</color>
-  <color name="color_base_tertiary">#ff21314d</color>
-  <color name="color_base_success">#ffccd814</color>
-  <color name="color_base_warning">#ffeedc00</color>
-  <color name="color_base_info">#ffffb81c</color>
-  <color name="color_base_danger">#ffcd5c3e</color>
-  <color name="color_font_primary">#ff111111</color>
-  <color name="color_font_secondary">#ff505050</color>
+  <color name="color_font_base">#ffff0000</color>
+  <color name="color_font_secondary">#ff00ff00</color>
   <color name="color_font_tertiary">#ffcccccc</color>
-  <color name="color_font_white">#ffffffff</color>
   
 </resources>
