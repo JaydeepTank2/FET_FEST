@@ -90,7 +90,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "../../style-dist/build/js/_variables.js"
+            ]
           }
         },
         "lint": {
