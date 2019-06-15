@@ -1,6 +1,12 @@
 i {
     /* // color: */
+    font-size: var(--size-font-xlarge) !important;
+    line-height: 120px !important;
 } 
+
+.container {
+    margin-bottom: 30px;
+}
 
 .tile {
     line-height: 120px;
@@ -10,65 +16,108 @@ i {
 }
 
 .tile.color-primary {
-    background-color: red;
+    background-color: var(--color-base-primary);
 }
 
 .tile.color-secondary {
-    background-color: red;
+    background-color: var(--color-base-secondary);
 }
 
 .tile.color-tertiary {
-    background-color: red;
+    background-color: var(--color-base-tertiary);
 }
 
 .tile.color-success {
-    background-color: red;
+    background-color: var(--color-base-success);
 }
 
 .tile.color-info {
-    background-color: red;
+    background-color: var(--color-base-info);
 }
 
 .tile.color-danger {
-    background-color: red;
+    background-color: var(--color-base-danger);
 }
 
 .tile.color-gray-light {
-    background-color: red;
+    background-color: var(--color-base-gray-light);
 }
 
 .tile.color-gray-medium {
-    background-color: red;
+    background-color: var(--color-base-gray-medium);
 }
 
-.tile.icon-left-arrow {
-    
+.tile .icon-left-arrow:before {
+    content: var(--icon-left-arrow);
 }
 
-.tile.icon-right-arrow {
-    
+.tile .icon-right-arrow:before {
+    content: var(--icon-right-arrow);
 }
 
-.tile.icon-top-arrow {
-    
+.tile .icon-top-arrow:before {
+    content: var(--icon-top-arrow);
 }
 
-.tile.icon-down-arrow {
-    
+.tile .icon-down-arrow:before {
+    content: var(--icon-down-arrow);
 }
 
-.tile.icon-cart {
-
+.tile .icon-cart:before {
+    content: var(--icon-cart);
 }
 
-.tile.icon-admin {
-
+.tile .icon-admin:before {
+    content: var(--icon-admin);
 }
 
-.tile.icon-edit {
-
+.tile .icon-edit:before {
+    content: var(--icon-edit);
 }
 
-.tile.icon-save {
-
+.tile .icon-save:before {
+    content: var(--icon-save);
 }
+
+.tile.text-small {
+    font-size: var(--size-font-small);
+}
+
+.tile.text-medium {
+    font-size: var(--size-font-medium);
+}
+
+.tile.text-large {
+    font-size: var(--size-font-large);
+}
+
+.tile.text-xlarge {
+    font-size: var(--size-font-xlarge);
+}
+
+.info-text {
+    color: var(--color-base-info);
+}
+
+.default-btn {
+    background-color: var(--color-base-primary);
+    color: var(--color-font-white);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    font-size: var(--size-font-small);
+}
+
+.close-btn {
+    background-color: var(--color-font-tertiary);
+    color: var(--color-font-secondary);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    font-size: var(--size-font-small);
+}
+
+a {
+    color: var(--color-base-secondary);
+}
+
+h3, h4 {
+    color: var(--color-base-primary);
+}
+

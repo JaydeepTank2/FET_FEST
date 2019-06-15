@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 Jun 2019 07:01:39 GMT
+// Generated on Sat, 15 Jun 2019 08:07:05 GMT
 //
 
 
@@ -27,8 +27,17 @@ public class StyleDictionary {
     static let colorFontSecondary = UIColor(red: 0.31, green: 0.31, blue: 0.31, alpha:1)
     static let colorFontTertiary = UIColor(red: 0.80, green: 0.80, blue: 0.80, alpha:1)
     static let colorFontWhite = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha:1)
+    static let iconAdmin = '\f007'
+    static let iconCart = '\f07a'
+    static let iconDownArrow = '\f107'
+    static let iconEdit = '\f040'
+    static let iconLeftArrow = '\f104'
+    static let iconRightArrow = '\f105'
+    static let iconSave = '\f0c7'
+    static let iconTopArrow = '\f106'
     static let sizeFontBase = CGFloat(16.00)
     static let sizeFontLarge = CGFloat(32.00)
     static let sizeFontMedium = CGFloat(16.00)
     static let sizeFontSmall = CGFloat(12.00)
+    static let sizeFontXlarge = CGFloat(64.00)
 }

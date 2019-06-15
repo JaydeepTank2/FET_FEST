@@ -5,11 +5,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
-
+    <link rel="stylesheet" href="../style-dist/build/css/_variables.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -19,39 +20,52 @@
             <div class="col-md-3">
                 <i class="fa fa-paint-brush" aria-hidden="true"></i>
                 <h4>Branding</h4>
-                <p class="mb-1">Brand Colors</p>
+                <div class="row">
+                    <a class="col-md-12" href="#brandColors">Brand Colors</a>
+                    <a class="col-md-12" href="#brandIcons">Icons</a>
+                    <a class="col-md-12" href="#brandTexts">Typography</a>
+                    <a class="col-md-12" href="#brandElements">Elements</a>
+                </div>
+
+                <!-- <a class="mb-1">Brand Colors</p>
                 <p class="mb-1">Icons</p>
                 <p class="mb-1">Typography</p>
-                <p class="mb-1">Elements</p>
+                <p class="mb-1">Elements</p> -->
             </div>
 
             <div class="col-md-9 mt-4">
                 <div id="brandColors">
-                    <h3>Brand Colors</h3>
+                    <h3 class="d-inline">Brand Colors</h3> <span class="info-text pl-3">Click on card to view usage
+                        details</span>
                     <div class="row">
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-primary" data-item="Primary Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
+                            <div class="tile color-primary" data-item="Primary Color" data-scss="$color-base-primary"
+                                data-css="--color-base-primary" data-js="ColorBasePrimary" data-xml="color_base_primary"
+                                data-toggle="modal" data-target="#info-modal">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="tile color-secondary" data-item="Secondary Color"
+                                data-scss="$color-base-secondary" data-css="--color-base-secondary"
+                                data-js="ColorBaseSecondary" data-xml="color_base_secondary" data-toggle="modal"
                                 data-target="#info-modal">
 
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-secondary" data-item="Secondary Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile color-tertiary" data-item="Tertiary Color" data-scss="$color-base-tertiary"
+                                data-css="--color-base-tertiary" data-js="ColorBaseTertiary"
+                                data-xml="color_base_tertiary" data-toggle="modal" data-target="#info-modal">
 
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-tertiary" data-item="Tertiary Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4">
-                            <div class="tile color-success" data-item="Success Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile color-success" data-item="Success Color" data-scss="$color-base-success"
+                                data-css="--color-base-success" data-js="ColorBaseSuccess" data-xml="color_base_success"
+                                data-toggle="modal" data-target="#info-modal">
 
                             </div>
                         </div>
@@ -60,129 +74,167 @@
 
                     <div class="row mt-3">
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-info" data-item="Info Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile color-info" data-item="Info Color" data-scss="$color-base-info"
+                                data-css="--color-base-info" data-js="ColorBaseInfo" data-xml="color_base_info"
+                                data-toggle="modal" data-target="#info-modal">
 
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-danger" data-item="Danger Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile color-danger" data-item="Danger Color" data-scss="$color-base-danger"
+                                data-css="--color-base-danger" data-js="ColorBaseDanger" data-xml="color_base_danger"
+                                data-toggle="modal" data-target="#info-modal">
 
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-gray-light" data-item="Gray Light Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile color-gray-light" data-item="Gray Light Color"
+                                data-scss="$color-base-gray-light" data-css="--color-base-gray-light"
+                                data-js="ColorBaseGrayLight" data-xml="color_base_gray_light" data-toggle="modal"
+                                data-target="#info-modal">
 
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile color-gray-medium" data-item="Gray Medium Color" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile color-gray-medium" data-item="Gray Medium Color"
+                                data-scss="$color-base-gray-medium" data-css="--color-base-gray-medium"
+                                data-js="ColorBaseGrayMedium" data-xml="color_base_gray_medium" data-toggle="modal"
+                                data-target="#info-modal">
 
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="brandIcons" class="mt-3">
-                    <h3>Icons</h3>
-                    <div class="row">
+                <div id="brandIcons" class="mt-5">
+                    <h3 class="d-inline">Icons</h3><span class="info-text pl-3">Click on card to view usage
+                        details</span>
+                    <div class="row text-center">
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Left Arrow Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
-                                <i class="fa icon-left-arrow" aria-hidden="true" ></i>
+                            <div class="tile " data-item="Left Arrow Icon" data-scss="$icon-left-arrow"
+                                data-css="--icon-left-arrow" data-js="IconLeftArrow" data-xml="NA" data-toggle="modal"
+                                data-target="#info-modal">
+                                <i class="fa icon-left-arrow" aria-hidden="true"></i>
 
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Right Arrow Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Right Arrow Icon" data-scss="$icon-right-arrow"
+                                data-css="--icon-right-arrow" data-js="IconRightArrow" data-xml="NA" data-toggle="modal"
+                                data-target="#info-modal">
                                 <i class="fa icon-right-arrow" aria-hidden="true"></i>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Info Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Top Arrow Icon" data-scss="$icon-top-arrow"
+                                data-css="--icon-top-arrow" data-js="IconTopArrow" data-xml="NA" data-toggle="modal"
+                                data-target="#info-modal">
                                 <i class="fa icon-top-arrow" aria-hidden="true"></i>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Info Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Down Arrow Icon" data-scss="$icon-down-arrow"
+                                data-css="--icon-down-arrow" data-js="IconDownArrow" data-xml="NA" data-toggle="modal"
+                                data-target="#info-modal">
                                 <i class="fa icon-down-arrow" aria-hidden="true"></i>
                             </div>
                         </div>
 
                     </div>
 
-                    <div class="row mt-3">
+                    <div class="row mt-3 text-center">
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Cart Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Cart Icon" data-scss="$icon-cart" data-css="--icon-cart"
+                                data-js="IconCart" data-xml="NA" data-toggle="modal" data-target="#info-modal">
                                 <i class="fa icon-cart" aria-hidden="true"></i>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Admin Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Admin Icon" data-scss="$icon-admin" data-css="--icon-admin"
+                                data-js="IconAdmin" data-xml="NA" data-toggle="modal" data-target="#info-modal">
                                 <i class="fa icon-admin" aria-hidden="true"></i>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Edit Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Edit Icon" data-scss="$icon-edit" data-css="--icon-edit"
+                                data-js="IconEdit" data-xml="NA" data-toggle="modal" data-target="#info-modal">
                                 <i class="fa icon-edit" aria-hidden="true"></i>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile " data-item="Save Icon" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile " data-item="Save Icon" data-scss="$icon-save" data-css="--icon-save"
+                                data-js="IconSave" data-xml="NA" data-toggle="modal" data-target="#info-modal">
                                 <i class="fa icon-save" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="brandTexts" class="mt-3">
-                    <h3>Typography</h3>
+                <div id="brandTexts" class="mt-5">
+                    <h3 class="d-inline">Typography</h3><span class="info-text pl-3">Click on card to view usage
+                        details</span>
                     <div class="row text-center">
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile text-small" data-item="Small Text" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile text-small" data-item="Small Text" data-scss="$size-font-small"
+                                data-css="--size-font-small" data-js="SizeFontSmall" data-xml="size_font_small"
+                                data-toggle="modal" data-target="#info-modal">
                                 <span>Text</span>
 
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile text-medium" data-item="Medium Text" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile text-medium" data-item="Medium Text" data-scss="$size-font-medium"
+                                data-css="--size-font-medium" data-js="SizeFontMedium" data-xml="size_font_medium"
+                                data-toggle="modal" data-target="#info-modal">
                                 <span>Text</span>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile text-large" data-item="Large Text" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile text-large" data-item="Large Text" data-scss="$size-font-large"
+                                data-css="--size-font-large" data-js="SizeFontLarge" data-xml="size_font_large"
+                                data-toggle="modal" data-target="#info-modal">
                                 <span>Text</span>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="tile text-xlarge" data-item="Extra Large Text" data-scss="" data-css="" data-js="" data-xml="" data-toggle="modal"
-                            data-target="#info-modal">
+                            <div class="tile text-xlarge" data-item="Extra Large Text" data-scss="$size-font-xlarge"
+                                data-css="--size-font-xlarge" data-js="SizeFontXlarge" data-xml="size_font_xlarge"
+                                data-toggle="modal" data-target="#info-modal">
                                 <span>Text</span>
                             </div>
                         </div>
+
+                    </div>
+
+
+                </div>
+
+                <div id="brandElements" class="mt-5">
+                    <h3 class="d-inline">Elements</h3>
+                    <div class="row">
+                        <h5 class="col-md-12 mt-4">Buttons</h5>
+                        <div class="col-md-6 ">
+                            <button class="default-btn px-3 py-1">Active</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="close-btn px-3 py-1">Close</button>
+                        </div>
+
+                        <h5 class="col-md-12 mt-4">Link</h5>
+                        <div class="col-md-6">
+                            <a href="#">Click here</a>
+                        </div>
+
 
                     </div>
 
@@ -229,7 +281,7 @@
     </div>
 
 
-
+    <script src="assets/js/main.js"></script>
 
 </body>
 
