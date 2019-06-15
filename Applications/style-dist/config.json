@@ -35,6 +35,10 @@
       },{
         "destination": "colors.xml",
         "format": "android/colors"
+      },
+      {
+        "destination": "../../../Android/app/src/main/res/values/colors.xml",
+        "format": "android/colors"
       }]
     },
     "ios": {
