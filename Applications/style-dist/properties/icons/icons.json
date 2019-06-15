@@ -1,0 +1,28 @@
+{
+    "icon": {
+        "left-arrow": {
+            "value": "'\\f104'"
+        },
+        "right-arrow": {
+            "value": "'\\f105'"
+        },
+        "top-arrow": {
+            "value": "'\\f106'"
+        },
+        "down-arrow": {
+            "value": "'\\f107'"
+        },
+        "cart": {
+            "value": "'\\f07a'"
+        },
+        "admin": {
+            "value": "'\\f007'"
+        },
+        "edit": {
+            "value": "'\\f040'"
+        },
+        "save": {
+            "value": "'\\f0c7'"
+        }
+    }
+}

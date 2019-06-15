@@ -13,6 +13,10 @@
         "value": "2",
         "comment": "the large size of the font"
       },
+      "xlarge"  : {
+        "value": "4",
+        "comment": "the xlarge size of the font"
+      },
       "base"  : {
         "value": "1",
         "comment": "the base size of the font"
